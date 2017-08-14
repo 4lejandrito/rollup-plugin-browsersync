@@ -1,0 +1,27 @@
+{
+  "name": "rollup-plugin-browsersync",
+  "version": "0.1.0",
+  "description": "Serve your rolled up bundle via browsersync",
+  "main": "index.js",
+  "keywords": [
+    "rollup",
+    "rollup-plugin",
+    "browsersync",
+    "dev-server",
+    "static",
+    "serve"
+  ],
+  "license": "MIT",
+  "author": "Alejandro Tardín <alejandro@tardin.com>",
+  "homepage": "https://github.com/4lejandrito/rollup-plugin-browsersync",
+  "bugs": {
+    "url": "https://github.com/4lejandrito/rollup-plugin-browsersync/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4lejandrito/rollup-plugin-browsersync"
+  },
+  "dependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
