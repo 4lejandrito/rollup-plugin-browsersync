@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-browsersync",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Serve your rolled up bundle via browsersync",
   "main": "index.js",
   "keywords": [
