@@ -1,7 +1,18 @@
-var bs = require("browser-sync").create();
+var BrowserSync = require("browser-sync");
+
+function getBrowserSyncInstance(options) {
+    if (BrowserSync.has('rollup')) {
+        BrowserSync.get('rollup').exit();
+    }
+
+    var bs = BrowserSync.create('rollup');
+    bs.init(options);
+
+    return bs;
+}
 
 module.exports = function browsersync(options) {
-    bs.init(options || {server: '.'});
+    var bs = getBrowserSyncInstance(options || {server: '.'});
 
     ['SIGINT', 'SIGTERM'].forEach(
         function(signal) {
