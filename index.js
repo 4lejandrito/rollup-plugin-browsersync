@@ -1,16 +1,14 @@
-var bs = require("browser-sync").create();
+var bs = require('browser-sync').create();
 
 module.exports = function browsersync(options) {
     if (!bs.active) {
         bs.init(options || {server: '.'});
 
-        ['SIGINT', 'SIGTERM'].forEach(
-            function(signal) {
-                process.on(signal, function() {
-                    bs.exit();
-                });
-            }
-        );
+        ['SIGINT', 'SIGTERM'].forEach(function(signal) {
+            process.on(signal, function() {
+                bs.exit();
+            });
+        });
     }
 
     return {
