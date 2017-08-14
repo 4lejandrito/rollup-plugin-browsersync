@@ -4,9 +4,6 @@ Serve your bundle via Browser Sync
 <a href="https://npmjs.org/package/rollup-plugin-browsersync">
   <img src="https://img.shields.io/npm/v/rollup-plugin-browsersync.svg?style=flat-squar" alt="NPM" />
 </a>
-<a href="https://github.com/4lejandrito/rollup-plugin-browsersync/releases">
-  <img src="https://img.shields.io/github/release/4lejandrito/rollup-plugin-browsersync.svg" alt="Latest Version" />
-</a>
   
 ## Installation
 ```
