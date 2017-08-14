@@ -1,7 +1,7 @@
 var bs = require("browser-sync").create();
 
 module.exports = function browsersync(options) {
-    bs.init(options);
+    bs.init(options || {server: '.'});
 
     ['SIGINT', 'SIGTERM'].forEach(
         function(signal) {
