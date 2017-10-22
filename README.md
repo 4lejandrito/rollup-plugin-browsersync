@@ -4,7 +4,7 @@ Serve your bundle via Browser Sync
 <a href="https://npmjs.org/package/rollup-plugin-browsersync">
   <img src="https://img.shields.io/npm/v/rollup-plugin-browsersync.svg?style=flat-squar" alt="NPM" />
 </a>
-  
+
 ## Installation
 ```
 npm install --save-dev rollup-plugin-browsersync
@@ -16,8 +16,10 @@ npm install --save-dev rollup-plugin-browsersync
 import browsersync from 'rollup-plugin-browsersync'
 
 export default {
-  entry: 'entry.js',
-  dest: 'bundle.js',
+  input: 'entry.js',
+  output: {
+    file: 'bundle.js'
+  },
   plugins: [
     browsersync({server: 'dist'})
   ]
