@@ -21,7 +21,16 @@
     "type": "git",
     "url": "https://github.com/4lejandrito/rollup-plugin-browsersync"
   },
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "browser-sync": "^2.18.13"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "puppeteer": "^1.11.0",
+    "replace-in-file": "^3.4.2",
+    "rollup": "^1.0.0"
   }
 }

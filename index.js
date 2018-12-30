@@ -1,4 +1,4 @@
-var bs = require('browser-sync').create();
+var bs = require('browser-sync').create('rollup');
 
 module.exports = function browsersync(options) {
     if (!bs.active) {

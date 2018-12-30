@@ -9,3 +9,4 @@ node_modules
 # Unwanted
 .idea
 .DS_Store
+test/bundle.js
