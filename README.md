@@ -1,9 +1,8 @@
 # rollup-plugin-browsersync
 Serve your bundle via Browser Sync
 
-<a href="https://npmjs.org/package/rollup-plugin-browsersync">
-  <img src="https://img.shields.io/npm/v/rollup-plugin-browsersync.svg?style=flat-squar" alt="NPM" />
-</a>
+[![npm version](https://badge.fury.io/js/rollup-plugin-browsersync.svg)](https://badge.fury.io/js/rollup-plugin-browsersync)
+[![Build Status](https://travis-ci.org/4lejandrito/rollup-plugin-browsersync.svg?branch=master)](https://travis-ci.org/4lejandrito/rollup-plugin-browsersync)
 
 ## Installation
 ```
