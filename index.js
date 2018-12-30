@@ -7,8 +7,10 @@ module.exports = function browsersync(options) {
 
     return {
         name: 'browsersync',
-        onwrite: function(bundle) {
-            bs.reload(bundle.dest);
+        generateBundle: function({}, bundle, isWrite) {
+            if (isWrite) {
+                bs.reload(bundle.dest);
+            }
         }
     }
 };
