@@ -2,7 +2,7 @@
 Serve your bundle via Browser Sync
 
 [![npm version](https://badge.fury.io/js/rollup-plugin-browsersync.svg)](https://badge.fury.io/js/rollup-plugin-browsersync)
-[![Build Status](https://travis-ci.org/4lejandrito/rollup-plugin-browsersync.svg?branch=master)](https://travis-ci.org/4lejandrito/rollup-plugin-browsersync)
+[![Build](https://github.com/4lejandrito/rollup-plugin-browsersync/workflows/Build/badge.svg)](https://github.com/4lejandrito/rollup-plugin-browsersync/actions?query=workflow%3ABuild+branch%3Amaster)
 
 ## Installation
 ```
