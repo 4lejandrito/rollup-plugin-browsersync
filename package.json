@@ -25,13 +25,13 @@
     "test": "jest"
   },
   "dependencies": {
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.26.12"
   },
   "devDependencies": {
-    "jest": "^25.1.0",
-    "puppeteer": "^2.1.1",
-    "replace-in-file": "^5.0.2",
-    "rollup": "^2.0.6",
+    "jest": "^26.5.2",
+    "puppeteer": "^5.3.1",
+    "replace-in-file": "^6.1.0",
+    "rollup": "^2.29.0",
     "wait-port": "^0.2.9"
   }
 }
