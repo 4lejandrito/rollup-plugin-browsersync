@@ -31,6 +31,7 @@
     "jest": "^25.1.0",
     "puppeteer": "^2.1.1",
     "replace-in-file": "^5.0.2",
-    "rollup": "^2.0.6"
+    "rollup": "^2.0.6",
+    "wait-port": "^0.2.9"
   }
 }
