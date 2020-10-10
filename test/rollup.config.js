@@ -8,6 +8,6 @@ module.exports = {
     format: 'umd'
   },
   plugins: [
-    browsersync({open: false, server: __dirname})
+    browsersync({open: false, server: __dirname, logLevel: "silent"})
   ]
 }
